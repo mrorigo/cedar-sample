@@ -1,6 +1,19 @@
 [package]
-name = "cedar-sample"
+name = "cedar"
 version = "0.1.0"
 edition = "2024"
+description = "A small Markdown-to-HTML documentation generator"
+license = "MIT"
+
+[lib]
+name = "cedar"
+path = "src/lib.rs"
+
+[[bin]]
+name = "cedar"
+path = "src/main.rs"
 
 [dependencies]
+
+[dev-dependencies]
+
