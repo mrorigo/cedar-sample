@@ -1,6 +1,6 @@
 # Cedar
 
-Cedar is a small Markdown-to-HTML command-line tool. It is the local sample
+Cedar is a small Markdown-to-HTML command-line tool. It is the sample
 project used to exercise `rlm-harness` as a supervised repository maintainer.
 
 ## Verify the project
