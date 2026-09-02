@@ -1,0 +1,13 @@
+[llm]
+provider = "openai_chat"
+endpoint = "https://openrouter.ai/api/v1"
+model = "openai/gpt-5.6-luna"
+maxOutputTokens = 4096
+maxRetries = 3
+retryInitialBackoffMs = 500
+retryMaxBackoffMs = 8000
+
+[tokenless]
+tokenBudgetTokens = 180000
+compactionKeepRecentTurns = 3
+compactionKeepRecentToolExchanges = 8
